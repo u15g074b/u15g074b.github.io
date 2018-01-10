@@ -1,0 +1,213 @@
+/* Common Style -------------------------- */
+
+body{
+    font-size:14px;
+    font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    line-height:1.6;
+    font-weight:normal;
+}
+
+a{
+    color:#CCC;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#DDD;
+    text-decoration: none;
+}
+
+
+/* Header -------------------------- */
+header{
+    width:100%;
+    height:440px;
+    background:url(../img/%E9%A2%A8%E6%99%AF.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 160px;
+    text-align: center;
+}
+
+    .header-container{
+        width:100%;
+        height:278px;
+        background: rgba(255,255,255,0.8); /* RGBとAlphaの指定 */
+        padding-top: 90px;
+}
+
+header h1{
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+header p{
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+
+/* profile -------------------------- */
+.profile{
+    width:100%;
+    padding:72px 0; /* 上下72 左右0 */
+    text-align: center;
+}
+
+.profile h2{
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.profile h3{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.profile p{
+    font-size: 14px;
+    line-height: 2;
+}
+
+/* title -------------------------- */
+.title{
+    width: 770px; /* w770 */
+    padding: 10px; /* p10 */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.title h2{
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+/* 定番食材 -------------------------- */
+.mac{
+    width: 700px; /* w770 */
+    padding: 10px; /* p10 */
+    border: 5px solid #CCC; /* bd+ */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.mb-p{
+    width: 350px;
+    padding: 10px;
+    background-color: #EEE;
+    text-align: center;
+}
+.mb-a{
+width: 350px;
+padding: 10px;
+background-color: #EEE;
+text-align: center;
+}
+
+.iphone{
+    width: 770px; /* w770 */
+    padding: 10px; /* p10 */
+    border: 5px solid #CCC; /* bd+ */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.iphone7{
+    width: 350px;
+    padding: 10px;
+    background-color: #EEE;
+    text-align: center;
+}
+.iphone6s{
+    width: 350px;
+    padding: 10px;
+    background-color: #EEE;
+    text-align: center;
+}
+
+.mac-container{
+display:flex;
+justify-content: space-between;
+}
+
+.iphone-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 道具 -------------------------- */
+.ipad{
+    width: 770px;
+    padding: 10px;
+    border: 5px solid #CCC;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.ipad h2{
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.麦わら帽子{
+    width: 350px;
+    padding: 10px;
+    background-color: #EEE;
+}
+.浮き輪{
+    width: 350px;
+    padding: 10px;
+    background-color: #EEE;
+}
+
+/* works -------------------------- */
+.works{
+    background-color: #F4F4F4;
+    padding: 72px 0;
+    text-align: center;
+}
+.works h2{
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.profile p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.profile h3{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 24px;
+    }
+.warks-container{
+    width:1280px;
+    margin: 0 auto; /* 上下72 左右0 */
+    display: flex;
+    justify-content: space-between;
+}
+.graphic{
+    width:358px;
+}
+.motion{
+    width:358px;
+}
+.web{
+    width:358px;
+}
+
+/* Footer -------------------------- */
+
+footer{
+    padding: 72px 0;
+}
+footer p{
+    font-size: 12px;
+    text-align: center;
+}
